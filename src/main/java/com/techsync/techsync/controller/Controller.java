@@ -8,7 +8,7 @@ public class Controller {
     
     @GetMapping("/")
     public String hello() {
-        return "Hello from Spring Boot on Oracle Cloud!";
+        return "Hello from Spring Boot on Oracle Cloud! commit";
     }
     
     @GetMapping("/health")
